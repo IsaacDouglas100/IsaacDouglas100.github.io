@@ -1,0 +1,248 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-style: arial;
+}
+
+header{
+  background: rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  margin-top: 15px;
+}
+
+body{
+  background: rgb(34, 34, 34);
+  color: white;
+  
+}
+
+.cabecalho1{
+  color: white;
+  font-weight: 600p;
+  font-size: 15px;
+}
+
+.cabecalho2{
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  font-size: 50px;
+}
+
+.titulo{
+  background-image: url(Img/titulo.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  align-items: center;
+  gap: 30px;
+  
+}
+
+h1{
+  font-size: 30px;
+}
+
+.botaotitulo{
+  background: #E81C1C;
+  height: 50px;
+  width: 200px;
+  border-radius: 25px;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+
+p{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+h2{
+  font-size: 20px;
+}
+
+
+.conteudo1{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  
+}
+
+.textoconteudo1{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+.textoconteudo1 p{
+  width: 80%;
+}
+
+.conteudo2{
+  position: relative;
+  left: 5%;
+}
+
+.conteudo3{
+  position: relative;
+  left: 5%;
+}
+
+.conteudo4{
+  position: relative;
+  left: 5%;
+}
+
+.conteudo5{
+  position: relative;
+  left: 5%;
+}
+
+
+h3{
+  font-size: 20px;
+}
+
+h4{
+  font-size: 20px;
+}
+
+h5{
+  font-size: 20px;
+}
+
+h6{
+  font-size: 20px;
+}
+
+.conteudo2 p{
+  position: relative;
+  position: -12%;
+}
+
+.conteudo3 p{
+  position: relative;
+  left: -12%;
+}
+
+.conteudo4 p{
+  position: relative;
+  left: -12%;
+}
+
+.conteudo5 p{
+  position: relative;
+  left: -12%;
+}
+
+.lista1{
+  position: relative;
+  
+}
+
+.lista2{
+  position: relative;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+  position: relative;
+  left: 1%;
+}
+
+.menu{
+  font-size: 15px;
+}
+
+.integrantes{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px;
+  background: linear-gradient(180deg, rgb(34, 34, 34), #9D2C2C);
+  color: white;
+}
+
+.pessoa{
+  height: 50px;
+  width: 80%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 2px solid white;
+  background: rgb(34, 34, 34);
+  gap: 15px;
+}
+
+.pessoa p{
+  font-size: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  left: 10px;
+  margin-top: 10px;
+}
+
+.pessoa a{
+  display: flex;
+  justify-items: end;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 50px;
+}
+
+.irprala{
+
+}
+
+.pessoa a{
+  color: #FF0FEA;
+  
+}
+
+.integrantes table input{
+  display: flex;
+  flex-direction: row;
+}
+
+.menuinte{
+  background: red;
+  border: 2px solid red;
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.botaosubmit{
+  position: relative;
+  left: 45px;
+  background: white;
+  border: 2px solid red;
+  padding: 5px;
+  width: 50px;
+  border-radius: 10px;
+  margin-top: 10px;
+  
+}
+
+.cantodetela{
+  border: 10px solid black;
+  rotate: 150;
+}
